@@ -1,0 +1,70 @@
+{
+  "name": "advanced-coding-tool",
+  "version": "0.1.0",
+  "description": "基于Claude Code架构的高性能编程工具",
+  "main": "dist/index.js",
+  "bin": {
+    "act": "dist/cli/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node src/cli/index.ts",
+    "test": "jest",
+    "lint": "eslint src/**/*.ts",
+    "format": "prettier --write src/**/*.ts"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.19.0",
+    "axios": "^1.6.0",
+    "chalk": "^5.3.0",
+    "commander": "^11.0.0",
+    "cors": "^2.8.5",
+    "cosmiconfig": "^8.3.6",
+    "diff": "^5.1.0",
+    "express": "^4.18.2",
+    "fast-glob": "^3.3.1",
+    "ignore": "^5.2.4",
+    "inquirer": "^9.2.10",
+    "ora": "^7.0.1",
+    "tree-sitter": "^0.20.6",
+    "tree-sitter-java": "^0.20.0",
+    "tree-sitter-javascript": "^0.20.3",
+    "tree-sitter-python": "^0.20.2",
+    "tree-sitter-typescript": "^0.20.3",
+    "ws": "^8.14.2",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/diff": "^5.0.9",
+    "@types/express": "^4.17.20",
+    "@types/inquirer": "^9.0.9",
+    "@types/jest": "^29.5.5",
+    "@types/node": "^20.8.0",
+    "@types/ws": "^8.5.8",
+    "@typescript-eslint/eslint-plugin": "^6.7.3",
+    "@typescript-eslint/parser": "^6.7.3",
+    "eslint": "^8.50.0",
+    "jest": "^29.7.0",
+    "openai": "^6.33.0",
+    "prettier": "^3.0.3",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "keywords": [
+    "ai",
+    "coding",
+    "development",
+    "claude",
+    "automation",
+    "productivity"
+  ],
+  "author": "Lobster <lobster@echo.ai>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/echo/advanced-coding-tool.git"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
