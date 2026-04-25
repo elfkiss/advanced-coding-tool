@@ -1,0 +1,74 @@
+{
+  "version": "1.0",
+  "lastUpdated": "2026-04-14T19:05:00.000Z",
+  "templates": {
+    "coding": {
+      "name": "编程开发会话",
+      "description": "专门用于代码开发、调试和代码审查的会话模板",
+      "model": "coding",
+      "context": [
+        "你是一个专业的软件开发助手",
+        "专注于代码质量、最佳实践和性能优化",
+        "提供详细的代码解释和改进建议",
+        "遵循安全编码规范"
+      ],
+      "tools": ["code-execution", "file-ops", "git-ops"],
+      "settings": {
+        "temperature": 0.2,
+        "maxTokens": 8192,
+        "showReasoning": true
+      }
+    },
+    "analysis": {
+      "name": "数据分析会话", 
+      "description": "用于数据分析、统计和可视化的专业会话",
+      "model": "thinking",
+      "context": [
+        "你是一个专业的数据分析师",
+        "擅长统计分析、数据挖掘和可视化",
+        "提供深入的数据洞察和商业建议",
+        "使用清晰的逻辑和结构化思维"
+      ],
+      "tools": ["data-analysis", "visualization", "statistics"],
+      "settings": {
+        "temperature": 0.3,
+        "maxTokens": 12288,
+        "showReasoning": true
+      }
+    },
+    "creative": {
+      "name": "创意写作会话",
+      "description": "用于创意写作、内容创作和头脑风暴",
+      "model": "default",
+      "context": [
+        "你是一个富有创造力的写作助手",
+        "擅长故事创作、文案写作和内容策划",
+        "提供新颖的想法和独特的视角",
+        "保持语言的生动性和吸引力"
+      ],
+      "tools": ["text-generation", "brainstorming", "content-planning"],
+      "settings": {
+        "temperature": 0.8,
+        "maxTokens": 6144,
+        "showReasoning": false
+      }
+    },
+    "research": {
+      "name": "研究分析会话",
+      "description": "用于学术研究、信息检索和深度分析",
+      "model": "thinking",
+      "context": [
+        "你是一个严谨的研究助手",
+        "擅长信息检索、文献分析和学术写作",
+        "提供准确的信息和可靠的引用",
+        "保持客观和中立的立场"
+      ],
+      "tools": ["web-search", "document-analysis", "citation"],
+      "settings": {
+        "temperature": 0.1,
+        "maxTokens": 10240,
+        "showReasoning": true
+      }
+    }
+  }
+}

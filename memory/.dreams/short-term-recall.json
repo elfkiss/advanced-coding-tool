@@ -1,0 +1,134 @@
+{
+  "version": 1,
+  "updatedAt": "2026-04-15T16:27:19.717Z",
+  "entries": {
+    "memory:memory/2026-03-19.md:39:85": {
+      "key": "memory:memory/2026-03-19.md:39:85",
+      "path": "memory/2026-03-19.md",
+      "startLine": 39,
+      "endLine": 85,
+      "source": "memory",
+      "snippet": "- 企业微信推送通道正常 - 手动测试推送成功 ### 后续发现的问题 (10:11) 发现 `daily-weather` 和 `daily-news` 任务今早运行失败/未推送： - **daily-weather**: 报错 `\"requires target <userId|groupId>\"` - **daily-news**: 运行成功但 `lastDelivered: false` **根因**: 配置文件已修改添加 `target: \"ZhangTao\"`，但 gateway 缓存了旧配置未生效。 **状态**: 等待用户确认是否重启 gateway 刷新配置 ## 天气查询 (08:27) ### 海宁天气 3月19日 - 当前：9°C（体感 8°C），薄雾 - 范围：8°C ~ 14°C - 湿度：87% - 风力：东北风 9 km/h - 降水：中午可能有零星小雨（64%概率） ### 穿衣指南 - 早上：薄外套 + 长袖/薄毛衣 - 中午：带伞！有雨的可能性 - 整体：春季过渡装，湿度高 ## 定时任务最终验证 (10:19) ### 操作 - 重启 gateway 加载新配置 - 手动触发天气推送测试 ### 结果 - ✅ 天气推送成功发送到企业微信 - 配置 `target: \"ZhangTao\"` 已生效 - 明天 7:00 自动推送应该正常 ### 状态 - **daily-weather**: 配置正确，等待明天自动运行 - **daily-news**: 配置正确，等待明天自动运行 ## WhatsApp 彻底删除 (1",
+      "recallCount": 2,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1.5529950783616095,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-04-07T17:03:00.947Z",
+      "lastRecalledAt": "2026-04-15T16:27:19.717Z",
+      "queryHashes": [
+        "deca38f9e19a",
+        "c7fbec58787d"
+      ],
+      "recallDays": [
+        "2026-04-08",
+        "2026-04-16"
+      ],
+      "conceptTags": [
+        "gateway",
+        "daily-weather",
+        "daily-news",
+        "任务今早运行失败/未推送",
+        "km/h",
+        "长袖/薄毛衣",
+        "企业",
+        "推送"
+      ]
+    },
+    "memory:memory/2026-03-18.md:65:107": {
+      "key": "memory:memory/2026-03-18.md:65:107",
+      "path": "memory/2026-03-18.md",
+      "startLine": 65,
+      "endLine": 107,
+      "source": "memory",
+      "snippet": "- 用户要求每30分钟检查定时任务状态 - 创建 cron 任务: cron-status-check - 每30分钟执行一次 ## 图片识别 (17:50) - 用户发送订单截图 - 订单号: 4202403180004 - 客户: 苏州欧普照明有限公司 - 商品: LED平板灯、LED吸顶灯等灯具 - 状态: 已签收 ## 图片识别修正 (17:53) - 用户纠正：图片内容不是订单截图 - 实际是：企业微信消息/通讯录界面 - 我识别有误，需请用户告知正确内容 ## 考勤打卡记录 (17:54) - 用户发送企业微信考勤打卡截图 - 日期: 2026年3月18日 - 上班打卡: 09:08 (正常) - 下班打卡: 未打卡 - 本月状态: 全勤 - 备注: 3月还有1次迟到 ## 图片识别错误 (17:57) - 用户发花图片，但我识别错误（幻觉） - 错误描述了不存在的考勤记录 - 图片数据被移除导致识别失败 - 用户纠正：发的是一朵花 - 需重新发送图片测试 ## 樱花/桃花识别 (17:58) - 用户发送粉色花朵照片 - 识别结果: 樱花或桃花 - 粉色花瓣，黄色花蕊 - 之前有两次识别失败/错误 ## 视觉模型 (18:06) - 用户询问图像识别用什么软件 - 回答：内置多模态模型能力，非特定软件 - 模型: minimax-m2.5 ## IT运维监控大屏 (18:08)",
+      "recallCount": 2,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1.5021857766576807,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-04-07T17:03:00.947Z",
+      "lastRecalledAt": "2026-04-15T16:27:19.717Z",
+      "queryHashes": [
+        "deca38f9e19a",
+        "c7fbec58787d"
+      ],
+      "recallDays": [
+        "2026-04-08",
+        "2026-04-16"
+      ],
+      "conceptTags": [
+        "cron-status-check",
+        "企业微信消息/通讯录界面",
+        "樱花/桃花识别",
+        "之前有两次识别失败/错误",
+        "minimax-m2.5",
+        "用户",
+        "要求",
+        "分钟"
+      ]
+    },
+    "memory:memory/2026-03-30.md:1:41": {
+      "key": "memory:memory/2026-03-30.md:1:41",
+      "path": "memory/2026-03-30.md",
+      "startLine": 1,
+      "endLine": 41,
+      "source": "memory",
+      "snippet": "# 2026-03-30 周一 ## 早间事件 ### 07:00 - 天气推送异常 - **问题**: daily-weather 任务状态显示为 ok，但实际推送未送达 - **根因**: wttr.in 对中文地名识别不稳定，`海宁`被错误识别为丹麦的Herning - **修复**: 用户反馈后立即手动补发，使用正确地址 `Haining,Zhejiang,China` - **结果**: 07:21 手动推送成功送达 ### 07:35 - 自动补发成功 - weather-fail-check 任务正常工作，自动补发天气信息 - 推送成功送达 ✅ ### 08:02 - 科技小报 - daily-news 任务正常运行 - 科技小报成功送达 ✅ ## 下午检查 (14:01) ### Cron 任务状态检查 | 任务名称 | 状态 | 备注 | |----------|------|------| | daily-weather | ok | 今早异常，已修复 | | weather-fail-check | ok | 自动补发正常 | | daily-news | ok | 正常 | | news-fail-check | ok | 正常 | | daily-push-report | ok | 正常 | | test-weather-check | idle | 待今晚23:00测试 | | cron-status-check | error | 每30分钟检查，需关注 | ### 发现问题 - `cron-status-check` 任务状态为",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.4707139720476958,
+      "maxScore": 0.4707139720476958,
+      "firstRecalledAt": "2026-04-07T17:03:00.947Z",
+      "lastRecalledAt": "2026-04-07T17:03:00.947Z",
+      "queryHashes": [
+        "deca38f9e19a"
+      ],
+      "recallDays": [
+        "2026-04-08"
+      ],
+      "conceptTags": [
+        "daily-weather",
+        "wttr.in",
+        "weather-fail-check",
+        "daily-news",
+        "news-fail-check",
+        "daily-push-report",
+        "test-weather-check",
+        "cron-status-check"
+      ]
+    },
+    "memory:memory/2026-03-18.md:31:75": {
+      "key": "memory:memory/2026-03-18.md:31:75",
+      "path": "memory/2026-03-18.md",
+      "startLine": 31,
+      "endLine": 75,
+      "source": "memory",
+      "snippet": "- 重点：OpenAI GPT-5.4 mini/nano、NVIDIA GTC 2026、Block 裁员 40%、xAI 被起诉 ## 天气查询 (16:48) - 用户询问嘉兴天气 - 查询结果：10.3°C、小雨、湿度91%、风速10.5km/h ## 记忆系统状态 (16:41) - 用户询问记忆系统是否正常 - 文件读写正常，但向量搜索未配置 - memory_search 返回空结果 ## 海宁天气 (16:49) - 用户询问海宁具体天气 - 查询结果：10.7°C、湿度89%、风速11.6km/h ## 7天天气预报 (16:50) - 用户询问未来7天天气 - 今晚到周五都有雨，周四/周六暂缓 - 气温6~16°C ## 定时天气推送 (16:54) - 用户要求每天早上7点推送天气+穿衣指南 - 创建 cron 任务: daily-weather - 每天 7:00 上海时区执行 - 通过企业微信推送 - 17:00 测试成功推送 ## 定时新闻推送 (17:00) - 用户要求每天早上8点推送热门科技新闻 - 创建 cron 任务: daily-news - 每天 8:00 执行，用 SearXNG 搜索汇总10条 - 测试成功 ## 定时状态检查 (17:02) - 用户要求每30分钟检查定时任务状态 - 创建 cron 任务: cron-status-check - 每30分钟执行一次 ## 图片识别 (17:50) - 用户发送订单截图 - 订单号: 4202403180004 - 客户: 苏州欧普照明有限公司 - 商品: LED平",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.46345286535062424,
+      "maxScore": 0.46345286535062424,
+      "firstRecalledAt": "2026-04-07T17:03:00.947Z",
+      "lastRecalledAt": "2026-04-07T17:03:00.947Z",
+      "queryHashes": [
+        "deca38f9e19a"
+      ],
+      "recallDays": [
+        "2026-04-08"
+      ],
+      "conceptTags": [
+        "gpt",
+        "openai",
+        "gpt-5.4",
+        "mini/nano",
+        "10.3",
+        "风速10.5km/h",
+        "memory-search",
+        "10.7"
+      ]
+    }
+  }
+}

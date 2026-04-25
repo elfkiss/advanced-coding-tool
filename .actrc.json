@@ -1,0 +1,15 @@
+{
+  "aiProvider": "claude",
+  "model": "claude-3-sonnet-20240229",
+  "maxTokens": 4000,
+  "temperature": 0.7,
+  "enableAutoComplete": true,
+  "enableCodeReview": true,
+  "enableDebug": true,
+  "customPrompts": {
+    "code_generation": "Generate high-quality, production-ready code. Follow best practices and include proper error handling.",
+    "completion": "Provide relevant code completions based on the current context.",
+    "code_review": "Review the code for quality, performance, security issues, and best practices.",
+    "debugging": "Help debug the issue by providing clear explanations and solutions."
+  }
+}

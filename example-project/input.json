@@ -1,0 +1,7 @@
+[
+  {"id": 1, "name": "alice", "status": "active", "score": 85},
+  {"id": 2, "name": "bob", "status": "inactive", "score": 92},
+  {"id": 3, "name": "charlie", "status": "active", "score": 78},
+  {"id": 4, "name": "david", "status": "active", "score": 95},
+  {"id": 5, "name": "eve", "status": "inactive", "score": 88}
+]

@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "skills": {
+    "memory-setup": {
+      "version": "1.0.0",
+      "installedAt": 1773635897795
+    },
+    "self-improving": {
+      "version": "1.2.16",
+      "installedAt": 1773635898453
+    },
+    "searxng": {
+      "version": "1.0.3",
+      "installedAt": 1773645856351
+    }
+  }
+}

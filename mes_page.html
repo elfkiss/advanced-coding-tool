@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="pragram" content="no-cache" />
+    <meta http-equiv="cache-control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"> -->
+    <!-- <meta name="viewport" content="width=1600, initial-scale=0, maximum-scale=0, user-scalable=0,shrink-to-fit=no"> -->
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <link rel="stylesheet" href="/cdn/element-ui/2.15.14/theme-chalk/index.css" />
+    <link rel="stylesheet" href="/cdn/avue/2.8.1/index.css" />
+    <link rel="stylesheet" href="/cdn/animate/3.5.2/animate.css" />
+    <link rel="stylesheet" href="/cdn/iconfont/index.css" />
+    <link rel="stylesheet" href="/cdn/iconfont/iconfont.css" />
+    <link rel="icon" href="/favicon.ico" />
+	<script type="text/javascript" src="/cdn/scan/common.js"></script>
+	<script type="text/javascript" src="/cdn/scan/scan.js"></script>  
+	<script type="text/javascript" >
+        document.write(' <script src="./config/check.js?var='+new Date().getTime()+'"><\/script>')
+		document.write(' <script src="./config.js?var='+new Date().getTime()+'"><\/script>')
+        document.write(' <script src="./ScanBC/config.js?var='+new Date().getTime()+'"><\/script>')
+	</script>
+    
+  <meta charset="UTF-8"><script defer src="/static/js/lib-polyfill.cb222120.js"></script><script defer src="/static/js/vform.89835023.js"></script><script defer src="/static/js/echarts.62950e0c.js"></script><script defer src="/static/js/81581.a2127863.js"></script><script defer src="/static/js/index.aed93e12.js"></script><link href="/static/css/81581.efc5be9f.css" rel="stylesheet"><link href="/static/css/index.874501ee.css" rel="stylesheet"></head>
+
+    <title>精纬软件</title>
+    <style>
+      html,
+      body,
+      #app {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+
+      .avue-home {
+        background-color: #303133;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .avue-home__main {
+        user-select: none;
+        width: 100%;
+        flex-grow: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+
+      .avue-home__footer {
+        width: 100%;
+        flex-grow: 0;
+        text-align: center;
+        padding: 1em 0;
+      }
+
+      .avue-home__footer > a {
+        font-size: 12px;
+        color: #ababab;
+        text-decoration: none;
+      }
+
+      .avue-home__loading {
+        height: 32px;
+        width: 32px;
+        margin-bottom: 20px;
+      }
+
+      .avue-home__title {
+        color: #fff;
+        font-size: 14px;
+        margin-bottom: 10px;
+      }
+
+      .avue-home__sub-title {
+        color: #ababab;
+        font-size: 12px;
+      }
+
+    </style>
+  </head>
+  <body>
+    <!-- <script>
+			var u = navigator.userAgent;
+			var isAndroid = u.indexOf('Android') > -1 || u.indexOf('Adr') > -1; //android终端
+			var isiOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/); //ios终端
+
+		 if (isAndroid) {
+				addMeta(
+					'viewport',
+					'width=1600, initial-scale=1, maximum-scale=0, user-scalable=yes,shrink-to-fit=no',
+				)
+			} else if (isiOS) {
+				// addMeta(
+				//      'viewport',
+				//      'width=1920, initial-scale=0, maximum-scale=0, user-scalable=yes,shrink-to-fit=no',
+				//   )
+
+			} else {
+				addMeta(
+					'viewport',
+					'width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0',
+				)
+			}
+
+			function addMeta(name, content) {
+				const meta = document.createElement('meta');
+				meta.content = content;
+				meta.name = name;
+				document.getElementsByTagName('head')[0].appendChild(meta);
+			}
+		</script> -->
+    <noscript>
+      <strong>
+        很抱歉，如果没有 JavaScript 支持，将不能正常工作。请启用浏览器的 JavaScript
+        然后继续。
+      </strong>
+    </noscript>
+    <div id="app">
+      <div class="avue-home">
+        <div class="avue-home__main">
+          <img class="avue-home__loading" src="./img/svg/loading-spin.svg" alt="loading" />
+          <div class="avue-home__title">
+            正在加载资源
+          </div>
+          <div class="avue-home__sub-title">
+            初次加载资源可能需要较多时间 请耐心等待<br />
+            倒计时：<span id="showtime">60</span>秒
+          </div>
+        </div>
+        <div class="avue-home__footer">
+          <a href="" target="_blank"> </a>
+        </div>
+      </div>
+    </div>
+    <script>
+      var div = document.getElementById('showtime')
+      let num = 59
+      var djs = setInterval(function() {
+        div.innerHTML = num
+        num--
+        if (num == 0) {
+            clearInterval(djs)
+        }
+      }, 1000)
+    </script>
+
+    <!-- built files will be auto injected -->
+    <script src="/util/aes.js" charset="utf-8"></script>
+    <script src="/cdn/vue/2.6.14/vue.js" charset="utf-8"></script>
+    <script src="/cdn/vuex/2.4.1/vuex.min.js" charset="utf-8"></script>
+    <script src="/cdn/vue-router/3.0.1/vue-router.min.js" charset="utf-8"></script>
+    <script src="/cdn/axios/1.0.0/axios.min.js" charset="utf-8"></script>
+    <script src="/cdn/element-ui/2.15.14/index.js" charset="utf-8"></script>
+    <script src="/cdn/avue/2.8.1/avue.min.js" charset="utf-8"></script> 
+        
+  </body>
+</html>

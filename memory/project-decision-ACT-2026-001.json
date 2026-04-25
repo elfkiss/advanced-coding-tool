@@ -1,0 +1,66 @@
+{
+  "version": "1.0",
+  "decisionDate": "2026-04-15T08:19:00.000Z",
+  "projectId": "ACT-2024-001",
+  "projectName": "ClaudeCraft",
+  "decision": {
+    "type": "project_scope_reduction",
+    "title": "暂停VS Code扩展开发，专注CLI工具",
+    "rationale": [
+      "VS Code扩展已停滞13天，完成度仅30%",
+      "CLI工具v0.2.0功能完整，完成度85%，具备发布条件",
+      "避免资源分散，提高开发效率",
+      "VS Code扩展技术债务严重，投入产出比低"
+    ],
+    "action": "pause_vs_code_extension",
+    "status": "executed"
+  },
+  "immediate_actions": [
+    {
+      "action": "document_decision",
+      "description": "记录决策并更新项目状态",
+      "status": "completed",
+      "completedAt": "2026-04-15T08:19:00.000Z"
+    },
+    {
+      "action": "focus_cli_development",
+      "description": "将开发资源集中于CLI工具v0.3.0",
+      "status": "in_progress",
+      "nextSteps": [
+        "补充测试用例，提高代码质量",
+        "完善API文档",
+        "性能优化",
+        "准备v0.3.0发布"
+      ]
+    },
+    {
+      "action": "archive_vs_code_extension",
+      "description": "归档VS Code扩展项目代码",
+      "status": "pending",
+      "timeline": "本周内完成"
+    }
+  ],
+  "resource_reallocation": {
+    "from": "VS Code扩展开发",
+    "to": "CLI工具优化和发布准备",
+    "impact": "提高开发效率，加速产品发布"
+  },
+  "future_considerations": [
+    {
+      "item": "VS Code扩展重新评估",
+      "condition": "CLI工具v1.0发布后",
+      "action": "评估是否重新启动或重构"
+    },
+    {
+      "item": "项目整合可能性",
+      "condition": "技术架构稳定后",
+      "action": "考虑将VS Code扩展作为CLI工具的辅助功能"
+    }
+  ],
+  "success_metrics": [
+    "CLI工具v0.3.0按时发布",
+    "测试覆盖率提升至80%以上",
+    "用户反馈积极",
+    "开发效率提升"
+  ]
+}

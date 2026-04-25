@@ -1,0 +1,53 @@
+{
+  "version": "1.0",
+  "lastUpdated": "2026-04-14T19:05:00.000Z",
+  "contexts": {
+    "ACT-2026-001": {
+      "name": "Advanced Coding Tool 项目",
+      "description": "ClaudeCraft CLI工具开发项目（VS Code扩展已暂停）",
+      "template": "coding",
+      "lastActive": "2026-04-15T08:19:00.000Z",
+      "summary": "项目决策已执行：暂停VS Code扩展，专注CLI工具开发。CLI工具v0.2.0功能完整，正在准备v0.3.0发布。",
+      "keyPoints": [
+        "✅ 决策已执行：暂停VS Code扩展开发",
+        "✅ CLI工具v0.2.0功能完整，具备发布条件",
+        "🎯 当前重点：CLI工具v0.3.0开发和发布准备",
+        "📈 资源重新分配：集中开发资源于CLI工具"
+      ],
+      "nextActions": [
+        "补充CLI工具测试用例，提高代码质量",
+        "完善API文档和用户指南",
+        "进行性能优化和稳定性测试",
+        "准备v0.3.0版本发布"
+      ],
+      "files": [
+        "ACT-2026-001-progress-2026-04-14.md",
+        "~/projects/advanced-coding-tool/README.md",
+        "~/projects/vscode-advanced-coding-tool/README.md"
+      ]
+    },
+    "daily-ops": {
+      "name": "日常运维会话",
+      "description": "系统监控、配置管理和日常维护",
+      "template": "analysis",
+      "lastActive": "2026-04-14T19:01:00.000Z",
+      "summary": "系统运行状态良好，完成了配置优化和心跳检查更新",
+      "keyPoints": [
+        "Gateway服务正常运行(PID 4906)",
+        "微信通道连接稳定",
+        "cron任务全部正常(7/7)",
+        "完成了models.json配置分离"
+      ],
+      "nextActions": [
+        "验证新的配置结构",
+        "继续Claude架构学习计划",
+        "处理剩余待办事项"
+      ],
+      "files": [
+        "HEARTBEAT.md",
+        "~/.openclaw/models.json",
+        "~/.openclaw/cron/jobs.json"
+      ]
+    }
+  }
+}

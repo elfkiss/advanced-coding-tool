@@ -1,0 +1,125 @@
+{
+  "stats": {
+    "total_files": 16,
+    "total_symbols": 0,
+    "indexing_time": 0.0018265247344970703,
+    "last_update": 1775102014.688311
+  },
+  "files": {
+    "/home/echo/.openclaw/workspace/advanced-coding-tool/src/core/index.ts": {
+      "hash": "9788e4f9d5dba42508f77ce608f6c7cd",
+      "symbols": 0,
+      "imports": [],
+      "dependencies": []
+    },
+    "/home/echo/.openclaw/workspace/advanced-coding-tool/src/core/engine.ts": {
+      "hash": "096d5ee6e9afec1a52dfffbc40f6906d",
+      "symbols": 0,
+      "imports": [],
+      "dependencies": []
+    },
+    "/home/echo/.openclaw/workspace/advanced-coding-tool/src/core/logger.ts": {
+      "hash": "de267a6cb9ff00f65c70c904a08ca4f6",
+      "symbols": 0,
+      "imports": [],
+      "dependencies": []
+    },
+    "/home/echo/.openclaw/workspace/advanced-coding-tool/src/core/types.ts": {
+      "hash": "b759aaf4f1292a96293e295459690070",
+      "symbols": 0,
+      "imports": [],
+      "dependencies": []
+    },
+    "/home/echo/.openclaw/workspace/advanced-coding-tool/src/core/config.ts": {
+      "hash": "74c5894dc48782506082d1470f462567",
+      "symbols": 0,
+      "imports": [],
+      "dependencies": []
+    },
+    "/home/echo/.openclaw/workspace/advanced-coding-tool/src/analysis/parser.ts": {
+      "hash": "4e619730511bc6ed80cabd5a2d0c30b6",
+      "symbols": 0,
+      "imports": [],
+      "dependencies": []
+    },
+    "/home/echo/.openclaw/workspace/advanced-coding-tool/src/analysis/index.ts": {
+      "hash": "886e94eefd5b7fe6f63e490103fb3e35",
+      "symbols": 0,
+      "imports": [],
+      "dependencies": []
+    },
+    "/home/echo/.openclaw/workspace/advanced-coding-tool/src/analysis/analyzer.ts": {
+      "hash": "f3a952068a00c6140fc6bd332ec41adc",
+      "symbols": 0,
+      "imports": [],
+      "dependencies": []
+    },
+    "/home/echo/.openclaw/workspace/advanced-coding-tool/src/analysis/simple-analyzer.ts": {
+      "hash": "98582b8bba09d250a1983e4293a49215",
+      "symbols": 0,
+      "imports": [],
+      "dependencies": []
+    },
+    "/home/echo/.openclaw/workspace/advanced-coding-tool/src/analysis/project.ts": {
+      "hash": "1c2015b9c558d556c028920269d77ca4",
+      "symbols": 0,
+      "imports": [],
+      "dependencies": []
+    },
+    "/home/echo/.openclaw/workspace/advanced-coding-tool/src/types/tree-sitter.d.ts": {
+      "hash": "5c6948b7e6315a7155a30080b2b3b6cd",
+      "symbols": 0,
+      "imports": [],
+      "dependencies": []
+    },
+    "/home/echo/.openclaw/workspace/advanced-coding-tool/src/cli/index.ts": {
+      "hash": "09d4a3dfd7a6ec3d6cbc8f0d03bba148",
+      "symbols": 0,
+      "imports": [],
+      "dependencies": []
+    },
+    "/home/echo/.openclaw/workspace/advanced-coding-tool/src/ai/index.ts": {
+      "hash": "872a70b6ea378312a4e5e759ad93691f",
+      "symbols": 0,
+      "imports": [],
+      "dependencies": []
+    },
+    "/home/echo/.openclaw/workspace/advanced-coding-tool/src/ai/openai.ts": {
+      "hash": "52ddd3586d5387b1b4758cca598fffab",
+      "symbols": 0,
+      "imports": [],
+      "dependencies": []
+    },
+    "/home/echo/.openclaw/workspace/advanced-coding-tool/src/ai/claude.ts": {
+      "hash": "7477510032f44a45b56e58b6803f0cf6",
+      "symbols": 0,
+      "imports": [],
+      "dependencies": []
+    },
+    "/home/echo/.openclaw/workspace/advanced-coding-tool/src/ai/provider.ts": {
+      "hash": "b430407434d69cc8caed71aaa4aab976",
+      "symbols": 0,
+      "imports": [],
+      "dependencies": []
+    }
+  },
+  "symbols": {},
+  "dependencies": {
+    "/home/echo/.openclaw/workspace/advanced-coding-tool/src/core/index.ts": [],
+    "/home/echo/.openclaw/workspace/advanced-coding-tool/src/core/engine.ts": [],
+    "/home/echo/.openclaw/workspace/advanced-coding-tool/src/core/logger.ts": [],
+    "/home/echo/.openclaw/workspace/advanced-coding-tool/src/core/types.ts": [],
+    "/home/echo/.openclaw/workspace/advanced-coding-tool/src/core/config.ts": [],
+    "/home/echo/.openclaw/workspace/advanced-coding-tool/src/analysis/parser.ts": [],
+    "/home/echo/.openclaw/workspace/advanced-coding-tool/src/analysis/index.ts": [],
+    "/home/echo/.openclaw/workspace/advanced-coding-tool/src/analysis/analyzer.ts": [],
+    "/home/echo/.openclaw/workspace/advanced-coding-tool/src/analysis/simple-analyzer.ts": [],
+    "/home/echo/.openclaw/workspace/advanced-coding-tool/src/analysis/project.ts": [],
+    "/home/echo/.openclaw/workspace/advanced-coding-tool/src/types/tree-sitter.d.ts": [],
+    "/home/echo/.openclaw/workspace/advanced-coding-tool/src/cli/index.ts": [],
+    "/home/echo/.openclaw/workspace/advanced-coding-tool/src/ai/index.ts": [],
+    "/home/echo/.openclaw/workspace/advanced-coding-tool/src/ai/openai.ts": [],
+    "/home/echo/.openclaw/workspace/advanced-coding-tool/src/ai/claude.ts": [],
+    "/home/echo/.openclaw/workspace/advanced-coding-tool/src/ai/provider.ts": []
+  }
+}

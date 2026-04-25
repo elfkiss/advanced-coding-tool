@@ -1,0 +1,12 @@
+{
+  "lastChecks": {
+    "email": 1742087640,
+    "calendar": 1742087640,
+    "selfImproving": 1743241851
+  },
+  "status": {
+    "email": "SKILL_NOT_INSTALLED",
+    "calendar": "SKILL_NOT_CONFIGURED",
+    "selfImproving": "OK"
+  }
+}
